@@ -21,7 +21,7 @@ Planera en utflykt med ett namn, till exempel `Skogsutflykt`. Skapa variabler f�
 
 ## Steg 2 – Din första function
 
-Skriv en function `show_heading()` som skriver ut en rubrik för utflykten. Anropa funktionen från programmet. Kör det och prova sedan att tillfälligt ta bort anropet: körs koden i funktionen ändå? Sätt tillbaka anropet. Funktionen kan använda en fast rubrik som `Packing list` just nu.
+Skriv en function `show_heading()` som skriver ut en rubrik för utflykten. Anropa funktionen från programmet. Funktionen kan använda en fast rubrik som `Packing list` just nu.
 
 **Kontroll:** Rubriken skrivs ut exakt en gång när funktionen anropas. Förklara för dig själv skillnaden mellan att *definiera* och att *anropa* en function.
 
@@ -31,7 +31,7 @@ Skriv en function `show_heading()` som skriver ut en rubrik för utflykten. Anro
 
 Ändra rubrikfunktionen så att den tar utflyktens namn som `parameter`, exempelvis `show_heading(trip_name)`. Anropa den med minst två olika namn, ett i taget, och se att rubriken ändras.
 
-Skriv sedan `calculate_item_weight(weight_grams, quantity)` som **returnerar** total vikt. Låt kod utanför funktionen skriva ut resultatet. Jämför med en variant som bara använder `print` inne i funktionen: kan du använda det utskrivna värdet i en ny beräkning?
+Skriv sedan funktionen `calculate_item_weight(weight_grams, quantity)` som **returnerar** total vikt. Låt kod utanför funktionen skriva ut resultatet. Jämför med en variant som bara använder `print` inne i funktionen: kan du använda det utskrivna värdet i en ny beräkning?
 
 **Kontroll:** `calculate_item_weight(500, 2)` ger talet `1000`, och `calculate_item_weight(200, 3)` ger `600`. Funktionen ska inte själv fråga efter input eller skriva ut totalen.
 
@@ -84,9 +84,3 @@ Skapa en ny fil `packing.py`. Flytta de tre återanvändbara beräkningsfunktion
 Svara på [REFLECTION.md](REFLECTION.md). Skriv vilka steg du hann och vilken fråga du vill ta upp med läraren. Kör programmet en sista gång, kontrollera `git status`, gör en `commit` för reflektionen och `push` till ditt repo.
 
 **Commit:** `Reflect on function practice`
-
-## Frivilligt tillägg: filer och JSON
-
-**Bara om du redan gått igenom filhantering eller vill utforska något nytt.** Kursplanen bekräftar inte att detta undervisats före OOP. Spara packlistan till `packing_list.json` med standardmodulen `json` och läs tillbaka den när programmet startar. Börja gärna med en separat fil och fråga läraren innan du kopplar in den i huvudprogrammet. Lägg aldrig personuppgifter eller lösenord i filen.
-
-Ett enklare första steg är att öppna en `.txt`-fil med `with open(..., encoding="utf-8")` och skriva en rad för varje sak. Filformat som XML, YAML och Excel ingår inte i kärnuppgifterna.
