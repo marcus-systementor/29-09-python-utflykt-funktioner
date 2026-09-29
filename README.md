@@ -9,26 +9,7 @@ Du bygger ett litet terminalprogram för att planera en utflykt. Börja med en e
 1. Öppna lärarens publika GitHub-template. Välj **Use this template → Create a new repository** och skapa ett eget **private** repo.
 2. Klona ditt eget repo, öppna mappen i VS Code och börja i `trip_planner.py`.
 3. Kör `python trip_planner.py` (eller `python3`/`py` beroende på dator). Den tomma startfilen ska köras utan fel.
-4. Efter varje steg: kör programmet, kontrollera output och gör en `commit`. `push` före lunch och i slutet av dagen.
-
-## Förslag till dagsplan, 09:00–16:00
-
-| Tid | Aktivitet |
-| --- | --- |
-| 09:00–09:20 | Klona repo, läs instruktionerna och kör filen. |
-| 09:20–10:05 | Steg 1: variabler och en enkel utskrift. |
-| 10:05–10:20 | Rast. |
-| 10:20–11:00 | Steg 2: första funktionen och funktionsanrop. |
-| 11:00–11:40 | Steg 3: `parameters` och `return`. |
-| 11:40–12:40 | Lunch. |
-| 12:40–13:20 | Steg 4: flera saker och en loop. |
-| 13:20–14:05 | Steg 5: summera med en funktion; upplev `scope`. |
-| 14:05–14:20 | Rast. |
-| 14:20–15:00 | Steg 6: `if` och återanvändbara kontroller. |
-| 15:00–15:35 | Steg 7: dela upp i `modules` och kör igen. |
-| 15:35–16:00 | Skriv reflektion, `commit`, `push`. |
-
-Om du behöver mer tid, prioritera förståelsen av steg 1–5. Steg 7 är ett bra mål för den som hunnit längre.
+4. Efter varje steg: kör programmet, kontrollera output och gör en `commit`. `push`.
 
 ## Steg 1 – En sak att packa
 
